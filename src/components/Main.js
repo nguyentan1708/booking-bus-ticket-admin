@@ -1,4 +1,7 @@
-import { BxBell,BxMenu} from "@bx-design/react-icons";
+import { 
+    BxBell,BxMenu,BxBuilding,BxSearch,BxCreditCard,BxBus,BxGroup,
+} from "@bx-design/react-icons";
+
 import "../styles/dashboard.css";
 import "../styles/reset.css";
 export default function Main(){
@@ -12,7 +15,8 @@ export default function Main(){
             </div>
             <div className="header-search">
                 <input type="text" className="header-search-input" placeholder="Tìm kiếm ở đây ..."/>
-                <i className='bx bx-search header-search-icon'></i>
+                {/* <i className='bx bx-search header-search-icon'></i> */}
+                {/* <BxSearch className="bx bx-search header-search-icon"/> */}
             </div>
             <div className="header-user">
                 <img src="https://media.istockphoto.com/photos/steamed-octopus-for-sashimi-picture-id1165598498?b=1&k=20&m=1165598498&s=170667a&w=0&h=8-oKrycjOj5wqzNyTuKrP3aJ6faLbFq2y80QvCJ37Z0="
@@ -100,28 +104,32 @@ export default function Main(){
                 <h4 className="dashboard-title">dashboard</h4>
                 <ul className="performance-list">
                     <li className="performance-item">
-                        <i className='bx bx-group performance-item-icon'></i>
+                        {/* <i className='bx bx-group performance-item-icon'></i> */}
+                        <BxGroup className='bx bx-group performance-item-icon'/>
                         <div className="performance-item-content">
                             <p className="performance-item-number">549,99</p>
                             <p className="performance-item-des">Total Takodachi</p>
                         </div>
                     </li>
                     <li className="performance-item">
-                        <i className='bx bx-credit-card-front performance-item-icon'></i>
+                        {/* <i className='bx bx-credit-card-front performance-item-icon'></i> */}
+                        <BxCreditCard className="bx bx-credit-card-front performance-item-icon"/>
                         <div className="performance-item-content">
                             <p className="performance-item-number">549,99</p>
                             <p className="performance-item-des">Total Takodachi</p>
                         </div>
                     </li>
                     <li className="performance-item">
-                        <i className='bx bx-bus performance-item-icon'></i>
+                        {/* <i className='bx bx-bus performance-item-icon'></i> */}
+                        {/* <BxBus className="bx bx-bus performance-item-icon"/> */}
                         <div className="performance-item-content">
                             <p className="performance-item-number">549,99</p>
                             <p className="performance-item-des">Total Takodachi</p>
                         </div>
                     </li>
                     <li className="performance-item">
-                        <i className='bx bx-buildings performance-item-icon'></i>
+                        {/* <i className='bx bx-buildings performance-item-icon'></i> */}
+                        <BxBuilding className="bx bx-buildings performance-item-icon"/>
                         <div className="performance-item-content">
                             <p className="performance-item-number">549,99</p>
                             <p className="performance-item-des">Total Takodachi</p>
